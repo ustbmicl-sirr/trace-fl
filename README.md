@@ -33,8 +33,8 @@ is formation energy `e_form` (eV/atom).
 | Alexandria | 5,000 | 4,159 | -1.42 | 1.26 | [-4.3, 4.1] |
 
 Pairwise formula overlap is low (OQMD/MP 10.5%, OQMD/Alex 6.0%, MP/Alex 14.6%),
-giving a natural non-IID federated regression task. Pooled training set: 13,800
-records; shared held-out test set: 1,201 records.
+giving a natural non-IID federated regression task. Pooled training set: 13,799
+records; shared held-out test set: 1,200 records.
 *OQMD's max (56.1) reflects a few high-energy entries (only 3 records >5; 99th
 percentile 0.5).
 
