@@ -47,14 +47,14 @@ Partitions:
 ## Results
 
 `results_trace/*.csv` contain the 3-seed (seeds 42, 43, 44) medians reported in
-the paper. Inter-seed range is typically <=0.05 R^2 (<=0.09 worst case).
+the paper. Inter-seed range is typically ≤ 0.05 R² (≤ 0.09 worst case).
 
 | File | Paper content |
 |---|---|
-| `robustness_n7_f{1,2}_iid.csv` | test R^2 by rule x attack at n=7 |
-| `multiscale_f1_sign_flip_iid.csv` | resolved rule + R^2 across n in {3,5,7,9,11} |
+| `robustness_n7_f{1,2}_iid.csv` | test R² by rule × attack at n = 7 |
+| `multiscale_f1_sign_flip_iid.csv` | resolved rule + R² across n ∈ {3, 5, 7, 9, 11} |
 | `substitution_n7_f1_sign_flip_iid.csv` | same-context substitution, all rules |
-| `adaptive_n{7,9,11}_iid.csv` | TARA vs oracle-f vs FLTrust, with estimated f-hat |
+| `adaptive_n{7,9,11}_iid.csv` | TARA vs. oracle-f vs. FLTrust, with estimated f̂ |
 | `adv_sweep_n7_iid.csv`, `ablation_n7_iid.csv`, `intermittent_n7_iid.csv` | adaptive adversary, ablation, intermittent adversary |
 | `convergence_n7_iid.csv` | per-round training dynamics |
 
