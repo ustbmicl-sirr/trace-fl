@@ -1,0 +1,7 @@
+n,f,gar,attack,clean_r2,attack_r2
+7,1,mean,sign_flip,0.5698,0.1517
+7,1,median,sign_flip,0.5875,0.571
+7,1,multi_krum,sign_flip,0.5871,0.5713
+7,1,centered_clipping,sign_flip,0.569,0.1517
+7,1,bulyan,sign_flip,0.5836,0.5784
+7,1,geo_med,sign_flip,0.575,0.5359

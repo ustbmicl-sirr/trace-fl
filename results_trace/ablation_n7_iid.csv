@@ -1,0 +1,17 @@
+f,attack,variant,r2
+1,sign_flip,full,0.5754
+1,sign_flip,-reputation,0.5754
+1,sign_flip,-estimation(f=1),0.5754
+1,sign_flip,-ruleselect(med),0.5609
+1,little_is_enough,full,0.5754
+1,little_is_enough,-reputation,0.5754
+1,little_is_enough,-estimation(f=1),0.5754
+1,little_is_enough,-ruleselect(med),0.5609
+2,sign_flip,full,0.5937
+2,sign_flip,-reputation,0.5937
+2,sign_flip,-estimation(f=1),0.5717
+2,sign_flip,-ruleselect(med),0.5937
+2,little_is_enough,full,0.5937
+2,little_is_enough,-reputation,0.5937
+2,little_is_enough,-estimation(f=1),0.5714
+2,little_is_enough,-ruleselect(med),0.5937

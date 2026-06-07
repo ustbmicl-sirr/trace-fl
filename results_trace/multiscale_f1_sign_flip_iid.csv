@@ -1,0 +1,11 @@
+n,f,trust,gar,clean_r2,attack_r2
+3,1,byzantine,median,0.6141,0.5519
+3,1,adaptive,centered_clipping,0.6044,-0.4445
+5,1,byzantine,multi_krum,0.5937,0.5999
+5,1,adaptive,multi_krum,0.5937,0.5999
+7,1,byzantine,bulyan,0.5836,0.5784
+7,1,adaptive,multi_krum,0.5802,0.5754
+9,1,byzantine,bulyan,0.6394,0.6626
+9,1,adaptive,multi_krum,0.6525,0.6527
+11,1,byzantine,bulyan,0.6374,0.6398
+11,1,adaptive,multi_krum,0.6493,0.6371
