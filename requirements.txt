@@ -1,6 +1,5 @@
-# TRACE-FL artifact dependencies (tested versions in parentheses)
+# TRACE-FL engine dependencies (engine released upon acceptance; tested versions noted)
 torch>=2.0          # tested: 2.10.0+cu128
 numpy>=1.24         # tested: 1.26.4
 pandas>=2.0
 scikit-learn>=1.3   # StandardScaler for per-shard feature scaling
-matplotlib>=3.7     # only needed for gen_figures.py

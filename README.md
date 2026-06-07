@@ -4,11 +4,10 @@ Public artifact for the paper *"TRACE: Cross-Layer Trust Resolution for Robust
 Federated Materials Data Mining"* (under review, ICDM Applied Track).
 
 > **Status.** This repository currently provides the **OPTIMADE cross-database
-> benchmark**, the **per-experiment result tables** (3-seed medians behind every
-> table/figure in the paper), and the **figure-regeneration script**. The full
-> TRACE engine source (model, six aggregation rules, five attacks, the
-> trust-resolution control plane, and TARA) **will be released here upon
-> acceptance**.
+> benchmark** and the **per-experiment result tables** (3-seed medians behind
+> every table/figure in the paper). The full TRACE engine source (model, six
+> aggregation rules, five attacks, the trust-resolution control plane, and TARA)
+> **will be released here upon acceptance**.
 
 ## Contents
 
@@ -17,7 +16,6 @@ data/
   optimade_fl/            # federated partitions: separate (provenance, n=3), n5/n7/n9/n11 (scaled)
   optimade_processed/     # per-source featurized CSVs (OQMD, Materials Project, Alexandria)
 results_trace/            # 3-seed result CSVs behind the paper's tables/figures
-gen_figures.py            # regenerate the paper figures from results_trace/ + data/
 requirements.txt
 LICENSE                   # MIT
 ```
@@ -57,16 +55,6 @@ the paper. Inter-seed range is typically ≤ 0.05 R² (≤ 0.09 worst case).
 | `adaptive_n{7,9,11}_iid.csv` | TARA vs. oracle-f vs. FLTrust, with estimated f̂ |
 | `adv_sweep_n7_iid.csv`, `ablation_n7_iid.csv`, `intermittent_n7_iid.csv` | adaptive adversary, ablation, intermittent adversary |
 | `convergence_n7_iid.csv` | per-round training dynamics |
-
-## Regenerate the figures
-
-```bash
-pip install -r requirements.txt   # numpy, pandas, matplotlib needed here
-python gen_figures.py             # reads results_trace/ + data/optimade_processed/, writes figures/*.pdf
-```
-
-This reproduces every data figure in the paper from the released result tables
-and benchmark, without the engine.
 
 ## Reproducing the results from scratch
 
